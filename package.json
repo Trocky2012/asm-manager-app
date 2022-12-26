@@ -7,7 +7,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "deploy": "gh-pages -d web-build",
+    "deploy": "master -d web-build",
     "predeploy": "expo export:web"
   },
   "dependencies": {
@@ -27,11 +27,13 @@
     "react-native-reversed-flat-list": "^1.0.2",
     "react-native-safe-area-context": "4.4.1",
     "react-native-screens": "~3.18.0",
-    "react-native-web": "~0.18.7"
+    "react-native-web": "~0.18.7",
+    "@expo/webpack-config": "^0.17.2"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "master": "^1.0.9"
   },
   "private": true
 }
