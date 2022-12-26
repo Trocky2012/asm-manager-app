@@ -1,11 +1,14 @@
 {
   "main": "node_modules/expo/AppEntry.js",
+  "homepage": "https://trocky2012.github.io/asm-manager-app",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "deploy": "gh-pages -d web-build",
+    "predeploy": "expo export:web"
   },
   "dependencies": {
     "@react-native-picker/picker": "2.4.8",
