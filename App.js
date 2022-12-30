@@ -918,9 +918,9 @@ class App extends Component {
               <TouchableOpacity style={styles.botaoEntry} onPress={()=>this.fcnEntryModalCheckAndClose()}>
                 <Text style={styles.botaoTexto}>Enter</Text>
               </TouchableOpacity>
-              <TouchableOpacity style={{}} onPress={()=>this.fcnNewLoginModal(true)}>
-               <Text style={{color:'#2F4F4F', fontSize:12, marginTop:35, paddingBottom:50} }>CREATE NEW PROJECT</Text>  
-              </TouchableOpacity>
+              {/* <TouchableOpacity style={{}} onPress={()=>this.fcnNewLoginModal(true)}>
+                <Text style={{color:'#2F4F4F', fontSize:12, marginTop:35, paddingBottom:50} }>CREATE NEW PROJECT</Text>  
+              </TouchableOpacity> */}
               
               <TouchableOpacity style={{flex:1, alignContent:'flex-end', justifyContent:'flex-end', padding:30}}
                     onPress={() => this.fcnAskToGoToStarengWebsite()}>
