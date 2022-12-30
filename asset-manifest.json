@@ -1,7 +1,7 @@
 {
   "files": {
-    "app.js": "/asm-manager-app/static/js/app.bea55906.chunk.js",
-    "app.js.map": "/asm-manager-app/static/js/app.bea55906.chunk.js.map",
+    "app.js": "/asm-manager-app/static/js/app.3a50c488.chunk.js",
+    "app.js.map": "/asm-manager-app/static/js/app.3a50c488.chunk.js.map",
     "runtime~app.js": "/asm-manager-app/static/js/runtime~app.41ede40e.js",
     "runtime~app.js.map": "/asm-manager-app/static/js/runtime~app.41ede40e.js.map",
     "static/js/2.3593ec52.chunk.js": "/asm-manager-app/static/js/2.3593ec52.chunk.js",
@@ -17,6 +17,6 @@
   "entrypoints": [
     "static/js/runtime~app.41ede40e.js",
     "static/js/2.3593ec52.chunk.js",
-    "static/js/app.bea55906.chunk.js"
+    "static/js/app.3a50c488.chunk.js"
   ]
 }
